@@ -36,16 +36,16 @@ gem "thruster", require: false
 gem "rack-cors"
 
 # Use Devise for handling our authentication methods
-gem 'devise'
-gem 'devise-jwt'
+gem "devise"
+gem "devise-jwt"
 
-gem 'dotenv-rails', groups: [:development, :test]
+gem "dotenv-rails", groups: [ :development, :test ]
 
 # Used for handlig pagination with our endpoint petitions
-gem 'pagy'
+gem "pagy"
 
 # Use CanCanCan to handle user permissions throughtout the applicaction
-gem 'cancancan'
+gem "cancancan"
 
 
 group :development, :test do
@@ -58,8 +58,8 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
-  # Use rspec-rails for testing porpuses
-  gem 'rspec-rails'
+  # Use rspec-rails for testing
+  gem "rspec-rails"
   gem "factory_bot_rails"
   gem "faker"
 end
